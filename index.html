@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dri="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="http://fptapteach.herokuapp.com" method="get">
+        <fieldset>
+            <legend>your details</legend>
+            <label>name: <input type="next" name="name" size="30" </label><br />
+                <label>emai: <input type="email" size="30" maxlength="100"></label><br />
+        </fieldset><br />
+        <fieldset>
+            <legend>yor review:</legend>
+            <p>
+                <label for="hear-about">how did you hear about us</label>
+                <sleect name="referrer" id="hear-about">
+                    <option value="google">google</option>
+                    <option value="friend">friend</option>
+                    <option value="advert">advert</option>
+                    <option value="other">other</option>
+                </sleect>
+            </p>
+            <p>
+                would you visit again<br />
+                <label><input type="radio" name="rating" value="yes" />yes</label>
+                <label><input type="radio" name="rating" value="no" />no</label>
+                <label><input type="radio" name="rating" value="other" />maybe</label>
+            </p>
+            <p>
+                <label for="commen"></label>
+            </p>
+        </fieldset>
+</body>
+
+</html>
